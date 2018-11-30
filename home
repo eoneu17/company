@@ -1,0 +1,111 @@
+shop at only once %%%
+  <section class="section section__features">
+    <div class="section__container">
+      <article class="content__container">
+        <div class="features--bg"></div>
+        <h3 class="section__heading">Here we are!</h3>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section__social">
+    <div class="section__container">
+      <article class="content__container social--insta">
+        <h4 class="content__title social--title"><a href="#nowhere" class="disabled">instagram<br>바로가기</a></h4>
+      </article>
+      <article class="content__container social--fb">
+        <h4 class="content__title social--title"><a href="#nowhere" class="disabled">facebook<br>바로가기</a></h4>
+      </article>
+      <article class="content__container social--youtube">
+        <h4 class="content__title social--title"><a href="#nowhere" class="disabled">youtube<br>바로가기</a></h4>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section__event">
+    <h3 class="section__heading">진행중인 이벤트</h3>
+    <div class="section__container event--container event--current">
+      <article class="content__container event--content">
+        <h4 class="content__title">O.O. 1호점 오픈!</h4>
+        <p class="content__text event--text">특별한 선물을 받아가세요</p>
+        <a class="btn btn-white" href="#store">1호점 가는길 알아보기</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section__product">
+    <div class="section__container">
+      <article class="content__container">
+        <h4 class="content__title product--01">Health</h4>
+      </article>
+      <article class="content__container">
+        <h4 class="content__title product--02">Life</h4>
+      </article>
+      <article class="content__container">
+        <h4 class="content__title product--03">Beauty</h4>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section--form">
+    <h3 class="section__heading">문의하기</h3>
+    <div class="section__container">
+      <article class="content__container">
+        <form method="post" action="#" class="form">
+          <div class="form--field">
+            <div class="form--label">
+              <label for="name">이름</label>
+            </div>
+            <div class="form--input">
+              <input type="text" name="name" id="name" placeholder="당신의 이름을 입력해주세요." required>
+            </div>
+          </div>
+          <div class="form--field">
+            <div class="form--label">
+              <label for="email">이메일</label>
+            </div>
+            <div class="form--input">
+              <input type="email" name="email" id="email" placeholder="이메일을 입력해주세요." required>
+            </div>
+          </div>
+          <div class="form--field">
+            <div class="form--label">
+              <label for="find-us">찾아온 경로</label>
+            </div>
+            <div class="form--input">
+              <select name="find-us" id="find-us">
+                <option value="friends" selected>친구</option>
+                <option value="search">검색</option>
+                <option value="ad">광고</option>
+                <option value="other">기타</option>
+              </select>
+            </div>
+          </div>
+          <div class="form--field">
+            <div class="form--label">
+              <label>뉴스레터</label>
+            </div>
+            <div class="form--input">
+              <input type="checkbox" name="news" id="news" checked> 뉴스레터를 구독하겠습니다.
+            </div>
+          </div>
+          <div class="form--field">
+            <div class="form--label">
+              <label>내용</label>
+            </div>
+            <div class="form--input">
+              <textarea name="message" placeholder="전할 말을 입력해주세요."></textarea>
+            </div>
+          </div>
+          <div class="form--field">
+            <div class="form--label">
+              <label>&nbsp;</label>
+            </div>
+            <div class="form--input">
+              <input type="submit" value="보내기">
+            </div>
+          </div>
+        </form>
+      </article>
+    </div>
+  </section>
